@@ -29,8 +29,8 @@ http.createServer(function(req, res) {
     // send the html
     readStream.pipe(res);
 
-}).listen(1337);
+}).listen(3000);
 
 // listening
 
-console.log('server at localhost:1337');
+console.log('server at localhost:3000');
